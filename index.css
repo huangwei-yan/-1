@@ -33,7 +33,7 @@
   list-style: none;
   color: #ffffff;
   position: relative;
-  box-shadow: 0 10px 15px #6745B5;
+  z-index: 1;
 }
 .img .ul li span {
   position: absolute;
@@ -46,6 +46,7 @@
   background-color: black;
   border-radius: 50%;
   line-height: 18px;
+  z-index: -1;
 }
 .img .ul li:nth-of-type(4n) {
   margin-right: 0;
